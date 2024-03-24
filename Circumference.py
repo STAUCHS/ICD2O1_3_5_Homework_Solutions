@@ -19,3 +19,5 @@ circumference = round(circumference, 2)
 
 # Output the circumference
 print("The circumference of your circle is", circumference, "cm.")
+print("The circumference of your circle is " + str(circumference) + "cm.")
+print(f"The circumference of your circle is {circumference}cm.")

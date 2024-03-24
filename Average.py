@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 # Name:         Average
-# Purpose:		Calculate the average a student's 4 marks
+# Purpose:      Calculate the average a student's 4 marks
 # Author:       Chen. C
 # Created:      21/03/2024
 #-------------------------------------------------------------------------
@@ -21,3 +21,5 @@ average = int(average)
 
 # Output the average
 print("Your average is", average, "%.")
+print("Your average is " + str(average) + "%.")
+print(f"Your average is {average}%.")

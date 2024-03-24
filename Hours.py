@@ -13,4 +13,6 @@ days = hours // 24
 leftover_hours = hours % 24
 
 # Output the days and remaining hours
-print(hours, "hours = ", days, "day(s) and", leftover_hours, "hour(s).")
+print(hours, "hour(s) =", days, "day(s) and", leftover_hours, "hour(s).")
+print(hours + " hour(s) = " + days + " days(s) and " + leftover_hours + " hour(s).")
+print(f"{hours} hour(s)_ = {days} day(s) and {leftover_hours} hour(s).")

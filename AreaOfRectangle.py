@@ -17,3 +17,5 @@ area = length_cm * width_cm
 
 # Output area
 print("The area of your rectangle is", area, "cm^2")
+print("The area of your rectangle is " + str(area) + " cm^2")
+print(f"The area of your rectangel is {area} cm^2.")

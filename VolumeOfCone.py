@@ -20,3 +20,5 @@ volume = round(volume, 1)
 
 # Output volume
 print("The volume of your cone is", volume, "cm^3.")
+print("The volume of your cone is " + str(volume) + " cm^3.")
+print(f"The volume of your cone is {volume} cm^3.")

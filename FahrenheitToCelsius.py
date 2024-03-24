@@ -18,3 +18,5 @@ temp_celsius = int(temp_celsius)
 
 # Output celsius
 print(temp_fahrenheit, "degrees Fahrenheit is", temp_celsius, "degrees celsius.")
+print(str(temp_fahrenheit) + " degrees Fahrenheit is " + str(temp_celsius) + " degrees celsius.")
+print(f"{temp_fahrenheit} degrees fahrentheit is {temp_celsius} degrees celsius.")

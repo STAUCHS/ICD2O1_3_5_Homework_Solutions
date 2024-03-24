@@ -20,3 +20,5 @@ hypotenuse = round(hypotenuse, 1)
 
 # Output hypotenuse
 print("The hypotenuse of a right triangle with legs", side_a, "and", side_b, "is", hypotenuse, "units.")
+print("The hypotenuse of a right triangle with legs " + str(side_a) + " and " + str(side_b) + " is " + str(hypotenuse) + " units.")
+print(f"The hypotenuse of a right triangle with legs {side_a} and {side_b} is {hypotenuse} units.")

@@ -17,3 +17,5 @@ distance_miles = round(distance_miles, 2)
 
 # Output miles
 print(distance_km, "km is", distance_miles, "miles.")
+print(str(distance_km) + "km is" + str(distance_miles) + "miles.")
+print(f"{distance_km}km is {distance_miles}miles.")
